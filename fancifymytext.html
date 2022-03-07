@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="fancifymytext.js"></script>
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		<fieldset aria-label="Text">
+			<textarea id='textarea' rows="4" cols="30"></textarea>
+		</fieldset>
+		<fieldset id="fancify" aria-label="Fancify">
+			<button id="bigger" onclick="bigger()">Bigger!</button>
+			<input type="radio" id="fancy" name="styleRadio" onchange="radioHandler()">
+			<label for="fancy">FancyShmancy</label>
+			<input type="radio" id="boring" name="styleRadio" onchange="radioHandler()">
+			<label for="boring">BoringBetty</label>
+			<button id="moo" onclick="moo()">Moo</button>
+		</fieldset>
+		<hr>
+		<a href="./index.html">Back to index page!</a>
+	</body>
+</html>
