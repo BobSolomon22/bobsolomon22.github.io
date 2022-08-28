@@ -1,0 +1,58 @@
+body {
+    background-color:darkslategray;
+    font-family: "Monospace",'Courier New', Courier, monospace;
+    color:lightgrey;
+    border-color:black;
+    border-style: solid;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+.navbar-item {
+    float:left;
+}
+
+.navbar-item-active {
+    background-color:darkseagreen;
+}
+
+.center-align {
+    text-align:center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.profile-image {
+    width:auto;
+    height:200px;
+    border-style: solid;
+}
+
+h1 {
+    text-align: center;
+    background-color:slategray;
+    border-color:black;
+    border-style: solid;
+}
+
+li a {
+    display:block;
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-style:solid;
+    border-color:black;
+    background-color: slategray;
+}
+
+li a:hover {
+    background-color: black;
+}
