@@ -43,6 +43,10 @@ h1 {
     border-style: solid;
 }
 
+a:visited {
+    color:white
+}
+
 li a {
     display:block;
     color:white;
